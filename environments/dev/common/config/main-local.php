@@ -1,7 +1,7 @@
 <?php
 
 if (isset($_SERVER)) {
-    // Web
+    // Web server
     $dbHost = $_SERVER['RDS_HOSTNAME'];
     $dbPort = $_SERVER['RDS_PORT'];
     $dbName = $_SERVER['RDS_DB_NAME'];
