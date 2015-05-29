@@ -68,7 +68,6 @@ class SiteController extends Controller
     public function actionIndex()
     {
         //esto es un comentario para subir
-echo “subida”;
         return $this->render('index');
     }
 
